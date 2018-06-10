@@ -22,15 +22,17 @@ public class ConexaoDB {
     String usuario = "user_financeiro";
     String senha = "52ZAvd6zvTzSndAz";
     Connection conexao;
-    
-   
-   ConexaoDB(){ 
-       try {
-        conexao = DriverManager.getConnection(url, usuario, senha);
-   
-       } catch(SQLException e) {
-           System.out.println(e);
-       }
-   }
+       
+    ConexaoDB(){ 
+        
+        try {
+        
+            conexao = DriverManager.getConnection(url, usuario, senha);
+        
+        } catch(SQLException e) {
+        
+            System.out.println(e);
+        }
+    }
     
 }
