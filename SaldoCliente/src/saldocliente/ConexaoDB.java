@@ -20,7 +20,7 @@ public class ConexaoDB {
     String db = "db_financeiro";
     String url = "jdbc:mariadb://" + servidor + "/" + db;
     String usuario = "user_financeiro";
-    String senha = "52ZAvd6zvTzSndAz";
+    String senha = "";
     Connection conexao;
        
     ConexaoDB(){ 
